@@ -7,17 +7,37 @@
 
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.myapplication.SignInScreenFragment"
+        android:name="com.example.myapplication.feature.sign_in.SignInScreenFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in_screen" />
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.example.myapplication.SignUpScreenFragment"
+        android:name="com.example.myapplication.feature.sign_up.SignUpScreenFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up_screen" />
     <fragment
         android:id="@+id/homeScreenFragment"
-        android:name="com.example.myapplication.HomeScreenFragment"
+        android:name="com.example.myapplication.feature.home.HomeScreenFragment"
         android:label="fragment_home_screen"
         tools:layout="@layout/fragment_home_screen" />
+    <fragment
+        android:id="@+id/firstScreenOnboardingFragment"
+        android:name="com.example.myapplication.feature.onboarding.FirstScreenOnboardingFragment"
+        android:label="fragment_first_screen_onboarding"
+        tools:layout="@layout/fragment_first_screen_onboarding" />
+    <fragment
+        android:id="@+id/secondScreenOnboardingFragment"
+        android:name="com.example.myapplication.feature.onboarding.SecondScreenOnboardingFragment"
+        android:label="fragment_second_screen_onboarding"
+        tools:layout="@layout/fragment_second_screen_onboarding" />
+    <fragment
+        android:id="@+id/thirdScreenOnboardingFragment"
+        android:name="com.example.myapplication.feature.onboarding.ThirdScreenOnboardingFragment"
+        android:label="fragment_third_screen_onboarding"
+        tools:layout="@layout/fragment_third_screen_onboarding" />
+    <fragment
+        android:id="@+id/detailScreenFragment"
+        android:name="com.example.myapplication.feature.detail.DetailScreenFragment"
+        android:label="fragment_detail_screen"
+        tools:layout="@layout/fragment_detail_screen" />
 </navigation>

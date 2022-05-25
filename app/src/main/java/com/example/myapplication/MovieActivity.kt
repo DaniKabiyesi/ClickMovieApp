@@ -8,18 +8,18 @@ import com.example.myapplication.databinding.ActivityMovieBinding
 
 class MovieActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMovieBinding
+    private val binding by lazy { ActivityMovieBinding.inflate(layoutInflater) }
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMovieBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setupNavController()
     }
 
-    private fun setupNavController(){
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_graph) as NavHostFragment
+    private fun setupNavController() {
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_graph) as NavHostFragment
         navController = navHostFragment.navController
     }
 
