@@ -1,12 +1,12 @@
 package com.example.myapplication.feature.onboarding
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.myapplication.R
-import com.example.myapplication.databinding.FragmentFirstScreenOnboardingBinding
 import com.example.myapplication.databinding.FragmentSecondScreenOnboardingBinding
 
 class FirstScreenOnboardingFragment : Fragment() {
@@ -24,8 +24,21 @@ class FirstScreenOnboardingFragment : Fragment() {
             container,
             false
         )
+        setListeners()
 
         return binding.root
+    }
+
+    private fun setListeners() {
+        binding.apply {
+            nextScreenButton.setOnClickListener {
+                nextScreen()
+            }
+        }
+    }
+
+    private fun nextScreen() {
+        findNavController().navigate(R.id.action_firstScreenOnboardingFragment_to_secondScreenOnboardingFragment)
     }
 
 }

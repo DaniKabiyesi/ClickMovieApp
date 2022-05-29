@@ -27,7 +27,6 @@ class AccessButton @JvmOverloads constructor(
         setLayout(attrs)
     }
 
-
     private fun setLayout(attrs: AttributeSet) {
         attrs.let {
             val attribute = context.obtainStyledAttributes(

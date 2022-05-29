@@ -3,13 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/signInFragment">
+    app:startDestination="@id/firstScreenOnboardingFragment">
 
     <fragment
         android:id="@+id/signInFragment"
         android:name="com.example.myapplication.feature.sign_in.SignInScreenFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in_screen" />
+        tools:layout="@layout/fragment_sign_in_screen" >
+        <action
+            android:id="@+id/action_signInFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_homeScreenFragment"
+            app:destination="@id/homeScreenFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.example.myapplication.feature.sign_up.SignUpScreenFragment"
@@ -19,25 +26,46 @@
         android:id="@+id/homeScreenFragment"
         android:name="com.example.myapplication.feature.home.HomeScreenFragment"
         android:label="fragment_home_screen"
-        tools:layout="@layout/fragment_home_screen" />
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homeScreenFragment_to_detailScreenFragment"
+            app:destination="@id/detailScreenFragment" />
+    </fragment>
     <fragment
         android:id="@+id/firstScreenOnboardingFragment"
         android:name="com.example.myapplication.feature.onboarding.FirstScreenOnboardingFragment"
         android:label="fragment_first_screen_onboarding"
-        tools:layout="@layout/fragment_first_screen_onboarding" />
+        tools:layout="@layout/fragment_first_screen_onboarding" >
+        <action
+            android:id="@+id/action_firstScreenOnboardingFragment_to_secondScreenOnboardingFragment"
+            app:destination="@id/secondScreenOnboardingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/secondScreenOnboardingFragment"
         android:name="com.example.myapplication.feature.onboarding.SecondScreenOnboardingFragment"
         android:label="fragment_second_screen_onboarding"
-        tools:layout="@layout/fragment_second_screen_onboarding" />
+        tools:layout="@layout/fragment_second_screen_onboarding" >
+        <action
+            android:id="@+id/action_secondScreenOnboardingFragment_to_thirdScreenOnboardingFragment"
+            app:destination="@id/thirdScreenOnboardingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/thirdScreenOnboardingFragment"
         android:name="com.example.myapplication.feature.onboarding.ThirdScreenOnboardingFragment"
         android:label="fragment_third_screen_onboarding"
-        tools:layout="@layout/fragment_third_screen_onboarding" />
+        tools:layout="@layout/fragment_third_screen_onboarding" >
+        <action
+            android:id="@+id/action_thirdScreenOnboardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
     <fragment
         android:id="@+id/detailScreenFragment"
         android:name="com.example.myapplication.feature.detail.DetailScreenFragment"
         android:label="fragment_detail_screen"
         tools:layout="@layout/fragment_detail_screen" />
+    <fragment
+        android:id="@+id/moviesTabFragment"
+        android:name="com.example.myapplication.MoviesTabFragment"
+        android:label="fragment_movies_tab"
+        tools:layout="@layout/fragment_movies_tab" />
 </navigation>

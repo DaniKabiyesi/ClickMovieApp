@@ -14,7 +14,7 @@
         android:fontFamily="@font/poppins_medium"
         android:textAllCaps="false"
         android:textStyle="normal"
-        android:textColor="@color/orange_app"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

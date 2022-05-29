@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerOne"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/spacing_24"
+        android:layout_marginTop="@dimen/spacing_24"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerTwo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginHorizontal="@dimen/spacing_24"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shimmerOne" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerThree"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="@dimen/spacing_24"
+        android:layout_marginTop="@dimen/spacing_24"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shimmerTwo" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerFour"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmerThree" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerFive"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toEndOf="@id/shimmerFour"
+        app:layout_constraintTop_toBottomOf="@id/shimmerThree" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerSix"
+        android:layout_width="0dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/shimmerFive"
+        app:layout_constraintTop_toBottomOf="@+id/shimmerThree" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerSeven"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="@dimen/spacing_24"
+        android:layout_marginTop="@dimen/spacing_24"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shimmerFive" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerEight"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shimmerSeven" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerNine"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintStart_toEndOf="@+id/shimmerEight"
+        app:layout_constraintTop_toBottomOf="@id/shimmerSeven" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/shimmerTen"
+        android:layout_width="0dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="@color/gray_app"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shimmerNine"
+        app:layout_constraintTop_toBottomOf="@id/shimmerSeven" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

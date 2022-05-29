@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange_app"
+    android:background="@color/black"
     tools:context=".feature.sign_up.SignUpScreenFragment">
 
     <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
@@ -28,7 +28,7 @@
         android:id="@+id/loginEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         app:change_hint="Login"
         app:input_type="text"
         app:is_password="false"
@@ -63,10 +63,11 @@
     <com.example.myapplication.common.utils.AccessButton
         android:id="@+id/createAccountButton"
         android:layout_width="293dp"
-        app:text_button="Create Account"
+        android:layout_marginTop="50dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordEditText"
+        app:text_button="Create Account" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
