@@ -5,12 +5,30 @@
       <map>
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/access_button.xml" value="0.159" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/access_edit_text.xml" value="0.159" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/checkbox_favorite_selector.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/checkbox_watched_selector.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_add_circle_outline.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_playlist_add_check_24.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.139" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_check_circle_outline.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_playlist_add.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_playlist_add_check.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_search.xml" value="0.139" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_share.xml" value="0.136" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/search_corner_background.xml" value="0.139" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/access_button.xml" value="0.16621376811594202" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/access_edit_text.xml" value="0.16621376811594202" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_movie.xml" value="0.17889492753623187" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_quick_movie.xml" value="0.1" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.17889492753623187" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/data_placeholder.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_detail_screen.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_details_screen.xml" value="0.25" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first_screen_onboarding.xml" value="0.25" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_home_screen.xml" value="0.22" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_movies_tab.xml" value="0.1743659420289855" />
@@ -18,8 +36,11 @@
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_sign_in_screen.xml" value="0.25" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_sign_up_screen.xml" value="0.18" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_third_screen_onboarding.xml" value="0.2" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/movie_card_item.xml" value="0.1743659420289855" />
         <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/shimmer_layout_home.xml" value="0.1743659420289855" />
-        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/toolbar_home.xml" value="0.25" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/test.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/toolbar_details.xml" value="0.2" />
+        <entry key="..\:/Users/dmsilva15/AndroidStudioProjects/MyApplication/app/src/main/res/layout/toolbar_home.xml" value="0.22" />
       </map>
     </option>
   </component>

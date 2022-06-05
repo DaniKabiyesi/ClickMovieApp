@@ -5,11 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.FragmentDetailScreenBinding
+import com.example.myapplication.databinding.FragmentDetailsScreenBinding
 
-class DetailScreenFragment : Fragment() {
+class DetailsScreenFragment : Fragment() {
 
-    private lateinit var _binding: FragmentDetailScreenBinding
+    private lateinit var _binding: FragmentDetailsScreenBinding
     private val binding get() = _binding
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class DetailScreenFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        _binding = FragmentDetailScreenBinding.inflate(
+        _binding = FragmentDetailsScreenBinding.inflate(
             inflater,
             container,
             false

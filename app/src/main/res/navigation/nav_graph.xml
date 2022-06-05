@@ -60,9 +60,9 @@
     </fragment>
     <fragment
         android:id="@+id/detailScreenFragment"
-        android:name="com.example.myapplication.feature.detail.DetailScreenFragment"
+        android:name="com.example.myapplication.feature.detail.DetailsScreenFragment"
         android:label="fragment_detail_screen"
-        tools:layout="@layout/fragment_detail_screen" />
+        tools:layout="@layout/fragment_details_screen" />
     <fragment
         android:id="@+id/moviesTabFragment"
         android:name="com.example.myapplication.MoviesTabFragment"

@@ -10,4 +10,5 @@
     <color name="orange_app">#FF8C00</color>
     <color name="red_app">#FC050E</color>
     <color name="gray_app">#9A9A9A</color>
+    <color name="shimmer">#DDDDDD</color>
 </resources>
